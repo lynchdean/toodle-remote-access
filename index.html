@@ -12,7 +12,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">CA268 Toodle Remote Access</h1>
-      <h2 class="project-tagline"></h2>
+      <h2 class="project-tagline">Using PuTTY &amp; Chrome</h2>
       <a href="https://github.com/lynchdean/toodle-remote-access" class="btn">View on GitHub</a>
       <a href="https://github.com/lynchdean/toodle-remote-access/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/lynchdean/toodle-remote-access/tarball/master" class="btn">Download .tar.gz</a>
@@ -59,10 +59,19 @@
 
 <p>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --proxy-server="socks5://127.0.0.1:8080"</p>
 </li>
+<li><p>Rename the shortcut to anything you like</p></li>
 </ul>
 
 <h2>
 <a id="to-launch" class="anchor" href="#to-launch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To launch:</h2>
+
+<ul>
+<li>Close any Chrome windows you have open.</li>
+<li>Ensure no Chrome processes are running before launching or else it may not work. Do this by ending each Google Chrome task in Task Manager or by un-ticking the 'Continue running background apps when Chrome is closed' box in the Chrome advanced settings near the bottom.</li>
+<li>In PuTTY, load your configuration and enter your password in the shell.</li>
+<li>Launch Chrome using the new shortcut.</li>
+<li>To test if it worked successfully, just check your IP address through the browser.</li>
+</ul>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/lynchdean/toodle-remote-access">CA268 Toodle Remote Access</a> is maintained by <a href="https://github.com/lynchdean">lynchdean</a>.</span>
