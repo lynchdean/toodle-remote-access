@@ -1,6 +1,6 @@
 {
   "name": "CA268 Toodle Remote Access",
   "tagline": "",
-  "body": "##PuTTY set up:\r\n1.  Download [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)\r\n2. Run putty.exe\r\n3. In the 'Category' section, select **Connection**>**SSH**>**Tunnels**\r\n4. \r\n   1. Type \"8080\" in the source port\r\n   2. Underneath, select **Dynamic** and **Auto**\r\n   3. Click \"Add\"\r\n",
+  "body": "##PuTTY set up:\r\n*  Download [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)\r\n*  Run putty.exe\r\n* In the 'Category' section, select **Connection**>**SSH**>**Tunnels**\r\n* \r\n   1. Type \"8080\" in the source port\r\n   2. Underneath, select **Dynamic** and **Auto**\r\n   3. Click \"Add\"\r\n* In the 'Category' section, select **Session** at the top.\r\n* Enter the host name (**<username>@student.computing.dcu.ie**) and port (**22**)\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
