@@ -1,6 +1,6 @@
 {
-  "name": "CA268 SSH Tunnel",
-  "tagline": "CA268 SSH Tunneling Guide",
-  "body": "## \r\n",
+  "name": "CA268 Toodle Remote Access",
+  "tagline": "",
+  "body": "##PuTTY set up:\r\n1.  Download [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)\r\n2. Run putty.exe\r\n3. In the 'Category' section, select **Connection**>**SSH**>**Tunnels**",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
