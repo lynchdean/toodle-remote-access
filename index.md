@@ -15,7 +15,7 @@
 
 ##Linux/Mac
 Use this command:
-> ssh -D 127.0.0.1:8080 -f -C -q -N \<username>\@student.computing.dcu.ie
+> ssh -D 127.0.0.1:8080 -f -C -q -N \<username\>@student.computing.dcu.ie
 
 ##Firefox:
 * Settings > Preferences > Advanced > Network > Settings...
