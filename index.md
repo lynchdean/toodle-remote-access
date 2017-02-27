@@ -1,3 +1,4 @@
+#OS configuration:
 ##PuTTY (For Windows):
 *  Download [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 *  Run putty.exe
@@ -17,6 +18,7 @@
 Use this command:
 > ssh -D 127.0.0.1:8080 -f -C -q -N \<username\>@student.computing.dcu.ie
 
+#Browser configuration:
 ##Firefox:
 * Settings > Preferences > Advanced > Network > Settings...
 * Select "Manual proxy configuration:"
