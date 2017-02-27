@@ -1,0 +1,8 @@
+title: CA268 Toodle Remote Access
+description: Using PuTTY & Chrome on Windows.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
