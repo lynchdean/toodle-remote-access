@@ -41,14 +41,14 @@ Use this command:
 * Ensure SOCKS v5 is selected.
 * Click OK.
 
-###To launch:
+### To launch:
 * In PuTTY (Or through the terminal on Linux/Mac), load your configuration and enter your password in the shell.
 * To test if it worked successfully, just check your IP address through the browser. It should be 136.206.x.
 
 *Note: Remember to change your Network settings back to 'No proxy' when reverting back to your usual connection.*
 
 ## Chrome:
-###Windows setup:
+### Windows setup:
 * Create a copy of your Google Chrome shortcut. (eg. Desktop Shortcut)
 * Right click it and select properties.
 * In the 'Target' field, add the text below on to the end after the file path to chrome.exe, making sure there's a space in between.
@@ -61,7 +61,7 @@ Use this command:
 
 * Rename the shortcut to anything you like and place it anywhere.
 
-###Linux/Mac setup:
+### Linux/Mac setup:
 Launch chrome through the terminal along with by the following argument:
 
 > --proxy-server="socks5://127.0.0.1:8080"
@@ -70,7 +70,7 @@ Launch chrome through the terminal along with by the following argument:
 
 > google-chrome --proxy-server="socks5://127.0.0.1:8080" &
 
-###To launch:
+### To launch:
 * Close any Chrome windows you have open.
 * Ensure no Chrome processes are running before launching or else it may not work. Do this by ending each Google Chrome task in Task Manager or by un-ticking the 'Continue running background apps when Chrome is closed' box in the Chrome advanced settings near the bottom.
 * In PuTTY (Or through the terminal on Linux/Mac), load your configuration and enter your password in the shell.
