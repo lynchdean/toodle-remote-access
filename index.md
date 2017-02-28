@@ -24,7 +24,7 @@ Use this command:
 
 *Note: The connection will be killed when you shutdown/reboot your PC, otherwise you can use:*
 > ps -aux | grep ssh
-> \#Take note of the process number found to the right of your username
+>  \#Take note of the process number found to the right of your username
 > kill \<process number\>
 
 # Browser configuration:
