@@ -22,6 +22,11 @@
 Use this command:
 > ssh -D 127.0.0.1:8080 -f -C -q -N \<username\>@student.computing.dcu.ie
 
+*Note: The connection will be killed when you shutdown/reboot your PC, otherwise you can use:*
+> ps -aux | grep ssh
+> #Take note of the process number found to the right of your username
+> kill \<process number\>
+
 # Browser configuration:
 
 ## Firefox:
@@ -34,6 +39,8 @@ Use this command:
 To launch:
 * In PuTTY (Or through the terminal on Linux/Mac), load your configuration and enter your password in the shell.
 * To test if it worked successfully, just check your IP address through the browser. It should be 136.206.x.
+
+*Note: Remember to change your Network settings back to 'No proxy' when reverting back to your usual connection.*
 
 ## Chrome:
 * Create a copy of your Google Chrome shortcut. (eg. Desktop Shortcut)
