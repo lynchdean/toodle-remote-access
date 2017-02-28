@@ -22,11 +22,12 @@
 Use this command:
 > ssh -D 127.0.0.1:8080 -f -C -q -N \<username\>@student.computing.dcu.ie
 
+
 *Note: The connection will be killed when you shutdown/reboot your PC, otherwise you can use:*
 
-> ps -aux | grep ssh
+> ps -aux \| grep ssh
 
-Take note of the process number found to the right of your username on the connection to DCU.
+> \#Take note of the process number found to the right of your username on the connection to DCU.
 
 > kill \<process number\>
 
