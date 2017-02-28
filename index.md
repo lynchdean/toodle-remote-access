@@ -41,7 +41,7 @@ Use this command:
 * Ensure SOCKS v5 is selected.
 * Click OK.
 
-To launch:
+###To launch:
 * In PuTTY (Or through the terminal on Linux/Mac), load your configuration and enter your password in the shell.
 * To test if it worked successfully, just check your IP address through the browser. It should be 136.206.x.
 
@@ -70,7 +70,7 @@ Launch chrome through the terminal along with by the following argument:
 
 > google-chrome --proxy-server="socks5://127.0.0.1:8080" &
 
-To launch:
+###To launch:
 * Close any Chrome windows you have open.
 * Ensure no Chrome processes are running before launching or else it may not work. Do this by ending each Google Chrome task in Task Manager or by un-ticking the 'Continue running background apps when Chrome is closed' box in the Chrome advanced settings near the bottom.
 * In PuTTY (Or through the terminal on Linux/Mac), load your configuration and enter your password in the shell.
