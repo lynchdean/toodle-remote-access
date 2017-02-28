@@ -35,6 +35,7 @@ Use this command:
 # Browser configuration:
 
 ## Firefox:
+### Setup:
 * Settings > Preferences > Advanced > Network > Settings...
 * Select "Manual proxy configuration:"
 * In the 'SOCKS Host' field type "127.0.0.1" and in the adjacent 'Port' field type "8080".
