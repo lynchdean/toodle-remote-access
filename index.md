@@ -15,6 +15,9 @@
 * Select SSH as the connection type underneath.
 * Save the configuration under any name you like.
 
+*Note: The Putty terminal will just hang after you successfully entered your password, the connection will be active as long as this wondow is kept open.*
+
+
 ## Linux/Mac
 Use this command:
 > ssh -D 127.0.0.1:8080 -f -C -q -N \<username\>@student.computing.dcu.ie
