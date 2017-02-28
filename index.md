@@ -1,6 +1,6 @@
-#OS configuration:
+# OS configuration:
 
-##PuTTY (For Windows):
+## PuTTY (For Windows):
 *  Download [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 *  Run putty.exe
 * Select the 'Connection>SSH>Tunnels' category.
@@ -15,13 +15,13 @@
 * Select SSH as the connection type underneath.
 * Save the configuration under any name you like.
 
-##Linux/Mac
+## Linux/Mac
 Use this command:
 > ssh -D 127.0.0.1:8080 -f -C -q -N \<username\>@student.computing.dcu.ie
 
-#Browser configuration:
+# Browser configuration:
 
-##Firefox:
+## Firefox:
 * Settings > Preferences > Advanced > Network > Settings...
 * Select "Manual proxy configuration:"
 * In the 'SOCKS Host' field type "127.0.0.1" and in the adjacent 'Port' field type "8080".
@@ -32,7 +32,7 @@ To launch:
 * In PuTTY (Or through the terminal on Linux/Mac), load your configuration and enter your password in the shell.
 * To test if it worked successfully, just check your IP address through the browser. It should be 136.206.x.
 
-##Chrome:
+## Chrome:
 * Create a copy of your Google Chrome shortcut. (eg. Desktop Shortcut)
 * Right click it and select properties.
 * In the 'Target' field, add the text below on to the end after the file path to chrome.exe, making sure there's a space in between.
